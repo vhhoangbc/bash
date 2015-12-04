@@ -1,0 +1,21 @@
+alias f="find . |grep "
+alias p="ps aux |grep "
+alias o="gnome-open "
+alias l='ls -lrt --color=auto'
+alias lr='ls -halR'
+alias ldir='ls -p | grep \/'
+alias rm='rm -rfv'
+alias cp='yes|cp -rv'
+alias mkdir='mkdir -p'
+alias ln='ln -s'
+alias ..='cd ..;pwd'
+alias ...='cd ../..;pwd'
+alias up='cd ..;pwd'
+alias back='cd $OLDPWD;pwd'
+alias df='df -h'
+alias du='du -sh'
+alias ai='whoami;pwd;hostname'
+PS1="> "
+if [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+fi

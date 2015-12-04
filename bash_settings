@@ -1,0 +1,6 @@
+export HISTCONTROL=ignoredups
+HISTSIZE=1500
+export HISTTIMEFORMAT='%F %T '
+HISTFILE=/home/ehoavuh/commandline_warrior
+export HISTCONTROL=erasedups
+export HISTIGNORE="pwd:ls:ls -ltr:cd"
